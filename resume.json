@@ -1,0 +1,414 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-10-11",
+    "sourceOfTruthFor": [
+      "CV (docx/pdf)",
+      "LinkedIn profile",
+      "https://dlltharanga.github.io"
+    ],
+    "notes": "Edit this file only. Website and CV are generated from it; LinkedIn text is generated for copy-paste."
+  },
+  "basics": {
+    "name": "D.M. Lahiru Tharanga",
+    "displayName": "Lahiru Tharanga",
+    "label": "Senior Lead Software Engineer | Aspiring Software Architect",
+    "email": "dlltharanga@gmail.com",
+    "url": "https://dlltharanga.github.io",
+    "summary": "Software engineer with 18+ years designing and building enterprise web applications across HR tech, logistics, and business intelligence, now moving into software architecture. Leads and mentors small development teams while staying hands-on with .NET 10, Angular, and Azure. Applies Clean Architecture, Domain-Driven Design, and a spec-driven, agentic development workflow to speed up delivery without sacrificing code quality.",
+    "location": {
+      "city": "Gampaha",
+      "region": "Western Province",
+      "countryCode": "LK"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dlltharanga",
+        "url": "https://www.linkedin.com/in/dlltharanga/"
+      },
+      {
+        "network": "GitHub",
+        "username": "dlltharanga",
+        "url": "https://github.com/dlltharanga"
+      },
+      {
+        "network": "Gumroad",
+        "username": "dlltharanga",
+        "url": "https://dlltharanga.gumroad.com"
+      }
+    ],
+    "x-linkedin": {
+      "headline": "Senior Lead Software Engineer @ Virtusa | Aspiring Software Architect | .NET · Azure · Clean Architecture · DDD | Agentic AI | 18+ yrs building enterprise SaaS"
+    }
+  },
+  "work": [
+    {
+      "name": "Virtusa",
+      "position": "Senior Lead Software Engineer",
+      "location": "Sri Lanka (Hybrid)",
+      "startDate": "2024-07",
+      "summary": "Leading a development team delivering enterprise SaaS for global clients.",
+      "highlights": [
+        "Lead and mentor a team of 1–3 developers: code reviews, technical direction and sprint planning",
+        "Contribute to architectural decisions on service boundaries and system design for enterprise platforms, balancing scalability, maintainability and delivery speed",
+        "Develop on .NET 10 with a spec-driven, agentic development workflow, keeping quality high through upfront spec design and human review gates"
+      ],
+      "x-clients": [
+        {
+          "name": "Paycor & Paychex",
+          "status": "current",
+          "region": "US (remote)",
+          "description": "Human Capital Management (HCM) platforms for payroll, employee benefits, talent acquisition and HR compliance"
+        },
+        {
+          "name": "Toluna",
+          "status": "previous",
+          "region": "Israel",
+          "description": "Global market research and consumer intelligence platform gathering opinions on behalf of major brands"
+        }
+      ],
+      "x-tech": [
+        ".NET 10",
+        "C#",
+        "Web API",
+        "Azure",
+        "Azure DevOps",
+        "SQL Server",
+        "Angular",
+        "Claude Code",
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "name": "Suntech Information Technologies Pty Ltd",
+      "position": "Technical Lead",
+      "location": "Melbourne, Australia",
+      "startDate": "2022-01",
+      "endDate": "2024-07",
+      "summary": "Technical Lead for offshore delivery to clients in Sweden and Australia.",
+      "highlights": [
+        "PINI Solution (Sweden): designed and developed Procurement Management, Logistic Planner, Production Forecast Management, Support (Ticketing) and an online appointment booking service",
+        "Architected new solutions on Clean Architecture, .NET Core, Web API, Angular, SQL Server and Azure, with CI/CD via GitHub Actions",
+        "Logistics Safety Solutions (Australia): built the CoRsafe suite (Portal, API, Inspector, Notifications) for Chain of Responsibility compliance in road transport",
+        "Designed and maintained the Azure CI/CD pipeline; ASP.NET MVC, Web API, SQL Server temporal tables",
+        "Delivered a SCORM Cloud integration and a DotVVM-based application"
+      ],
+      "x-tech": [
+        "Clean Architecture",
+        ".NET Core",
+        "Web API",
+        "Angular",
+        "SQL Server",
+        "Azure",
+        "GitHub Actions",
+        "ASP.NET MVC",
+        "DotVVM"
+      ]
+    },
+    {
+      "name": "CAMMS",
+      "position": "Associate Technical Lead",
+      "location": "Colombo, Sri Lanka",
+      "startDate": "2019-08",
+      "endDate": "2022-01",
+      "highlights": [
+        "Rebuilt CAMMS Quick Update on Clean Architecture with an Angular front end, .NET Core Web API and Entity Framework Core, moving the product off its legacy stack",
+        "Owned technical delivery of CAMMS Strategy sprint releases, from design through to production rollout",
+        "Guided developers on design decisions, code quality and complex issue resolution"
+      ],
+      "x-tech": [
+        ".NET Core",
+        "Web API",
+        "Entity Framework Core",
+        "Angular",
+        "SQL Server"
+      ],
+      "x-companyNote": "Australian company"
+    },
+    {
+      "name": "CAMMS",
+      "position": "Senior Software Engineer",
+      "location": "Colombo, Sri Lanka",
+      "startDate": "2017-11",
+      "endDate": "2019-08",
+      "highlights": [
+        "Delivered features across four flagship products: CAMMS Strategy, Incident, Risk and Project",
+        "Delivered complex client modifications, gap fixes and production issue resolutions"
+      ],
+      "x-tech": [
+        "ASP.NET Web Forms",
+        "ASP.NET MVC",
+        "Web API",
+        "SQL Server"
+      ],
+      "x-companyNote": "Australian company"
+    },
+    {
+      "name": "CAMMS",
+      "position": "Software Engineer",
+      "location": "Colombo, Sri Lanka",
+      "startDate": "2014-11",
+      "endDate": "2017-11",
+      "highlights": [
+        "Built CAMMS Powerdata, a Business Intelligence application using ASP.NET MVC, multidimensional cubes and a data warehouse",
+        "Developed SQL Server Integration Services (SSIS) packages to extract and load warehouse data"
+      ],
+      "x-tech": [
+        "ASP.NET MVC",
+        "SQL Server",
+        "SSAS",
+        "SSIS"
+      ],
+      "x-companyNote": "Australian company"
+    },
+    {
+      "name": "Gateway Consulting Service (GCS)",
+      "position": "Software Engineer",
+      "location": "Sri Lanka",
+      "startDate": "2008-05",
+      "endDate": "2013-05",
+      "summary": "Grew from intern to software engineer, working across all phases of the SDLC.",
+      "highlights": [
+        "CP Online – Education Management System",
+        "IPICT – Government Teachers Training Program",
+        "SOL – School Management System"
+      ],
+      "x-tech": [
+        "C#",
+        "ASP.NET",
+        "SQL Server"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sheffield Hallam University, UK (studied at SLIIT)",
+      "studyType": "M.Sc.",
+      "area": "Enterprise Application Development",
+      "startDate": "2010-12",
+      "endDate": "2013-12",
+      "score": "Merit"
+    },
+    {
+      "institution": "University of Kelaniya, Sri Lanka",
+      "studyType": "B.Sc.",
+      "area": "Mathematics and Physics",
+      "startDate": "2005-12",
+      "endDate": "2008-12"
+    },
+    {
+      "institution": "University of Colombo, Sri Lanka",
+      "studyType": "Bachelor of Information Technology (BIT)",
+      "area": "Information Technology – Higher Diploma completed",
+      "startDate": "2005-12",
+      "endDate": "2008-12"
+    },
+    {
+      "institution": "Bandaranayaka College, Gampaha",
+      "studyType": "G.C.E. Advanced Level",
+      "area": "Physics (B), Chemistry (B), Combined Mathematics (C)",
+      "startDate": "2003",
+      "endDate": "2004"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Implementing a Data Warehouse (70-767)",
+      "issuer": "Microsoft",
+      "date": "2018-02"
+    },
+    {
+      "name": "Designing Business Intelligence Solutions with Microsoft SQL Server (70-467)",
+      "issuer": "Microsoft",
+      "date": "2016-11"
+    },
+    {
+      "name": "MCSD: App Builder, Charter Member",
+      "issuer": "Microsoft",
+      "date": "2016-09"
+    },
+    {
+      "name": "MCSA: Web Applications, Charter Member",
+      "issuer": "Microsoft",
+      "date": "2016-09"
+    },
+    {
+      "name": "MCSD: Web Applications",
+      "issuer": "Microsoft",
+      "date": "2016-01"
+    },
+    {
+      "name": "Developing ASP.NET MVC Web Applications (70-486); Developing Microsoft Azure and Web Services (70-487)",
+      "issuer": "Microsoft",
+      "date": "2016-01"
+    },
+    {
+      "name": "Microsoft Specialist: Programming in C#",
+      "issuer": "Microsoft",
+      "date": "2015-07"
+    },
+    {
+      "name": "Microsoft Certified Professional",
+      "issuer": "Microsoft",
+      "date": "2012-04"
+    },
+    {
+      "name": "MCTS: .NET Framework 3.5, ASP.NET Applications",
+      "issuer": "Microsoft",
+      "date": "2010-03"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Architecture & Design",
+      "keywords": [
+        "Clean Architecture",
+        "Domain-Driven Design",
+        "SOLID Principles",
+        "Microservices",
+        "Event-Driven Architecture",
+        "RESTful API Design",
+        "System & Solution Design",
+        "Cloud-Native Architecture",
+        "Scalability",
+        "Security by Design",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "keywords": [
+        "C#",
+        ".NET 10",
+        "ASP.NET Core",
+        "ASP.NET MVC",
+        "Angular",
+        "JavaScript",
+        "TypeScript",
+        "SQL Server",
+        "Entity Framework",
+        "Azure",
+        "CI/CD Pipelines",
+        "Docker",
+        "Git",
+        "DevOps",
+        "SSRS"
+      ]
+    },
+    {
+      "name": "AI-Assisted Development",
+      "keywords": [
+        "Agentic Development (Claude Code, GitHub Copilot)",
+        "Prompt Engineering",
+        "Spec-Driven Development",
+        "LLM-Assisted Code Review & Refactoring",
+        "Azure OpenAI",
+        "RAG",
+        "MCP"
+      ]
+    },
+    {
+      "name": "Leadership & Communication",
+      "keywords": [
+        "Team Leadership & Mentoring",
+        "Technical Documentation",
+        "Architecture Decision Records (ADRs)",
+        "Stakeholder Communication"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "AI-103 Learning Journey – Professional Edition",
+      "publisher": "Gumroad",
+      "url": "https://dlltharanga.gumroad.com/l/mbjjbc",
+      "summary": "A 102-page practical guide to Azure OpenAI, embeddings, vector search, RAG, agents and Azure AI Foundry, written while preparing for the AI-103 exam."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio Website",
+      "url": "https://dlltharanga.github.io",
+      "description": "Responsive portfolio hosted on GitHub Pages with Open Graph previews.",
+      "x-visibility": "public"
+    },
+    {
+      "name": "Compara – AI-Powered Product Comparison Platform",
+      "description": "Solo-built AI product comparison platform for Sri Lanka: LLM agent with tool calling, provider-agnostic AI layer, .NET Clean Architecture + CQRS, React.",
+      "x-visibility": "hidden",
+      "x-note": "Not published yet – keep off LinkedIn and website until launch"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Sinhala",
+      "fluency": "Native or bilingual"
+    }
+  ],
+  "references": [
+    {
+      "name": "Ahad Azwer (former teammate, CAMMS)",
+      "reference": "Lahiru is the type of developer you could delegate a task to and focus on your work peacefully. He has a tremendous hunger to learn new things and is always eager to experiment.",
+      "x-source": "LinkedIn recommendation, Dec 2021"
+    }
+  ],
+  "x-site": {
+    "eyebrow": "Senior Lead Software Engineer · Aspiring Architect",
+    "heroTitle": "Designing enterprise SaaS with",
+    "heroHighlight": ".NET, Azure and Agentic AI",
+    "heroLead": "I'm Lahiru Tharanga, a software engineer from Sri Lanka with 18+ years designing and delivering enterprise platforms for clients in the US, Australia and Sweden. I lead a development team at Virtusa and I'm moving into software architecture.",
+    "stats": [
+      [
+        "18+",
+        "Years in software"
+      ],
+      [
+        "4",
+        "Countries served"
+      ],
+      [
+        "DDD",
+        "Clean Architecture"
+      ],
+      [
+        "MSc",
+        "Enterprise App Dev"
+      ]
+    ],
+    "aboutTitle": "Engineer, lead, architect in the making",
+    "about": [
+      "I've spent my career on the Microsoft stack, from ASP.NET Web Forms to <strong>.NET 10</strong>, building platforms people rely on every day: payroll and HR systems, risk and strategy management, logistics compliance and business intelligence.",
+      "At <strong>Virtusa</strong> I lead a team on <strong>Paycor &amp; Paychex</strong>, large-scale Human Capital Management platforms, and contribute to architectural decisions on service boundaries and system design. We use a <strong>spec-driven, agentic AI workflow</strong> with human review gates.",
+      "Outside work I write practical guides on Azure AI and build tools for AI assistants with the <strong>Model Context Protocol (MCP)</strong>."
+    ],
+    "pillars": [
+      [
+        "{ }",
+        "Architecture",
+        "Clean Architecture, DDD, microservices, event-driven design, RESTful APIs"
+      ],
+      [
+        "⟳",
+        "Delivery",
+        ".NET 10, Angular, Azure, CI/CD with Azure DevOps and GitHub Actions"
+      ],
+      [
+        "◎",
+        "Leadership",
+        "Mentoring engineers, ADRs, design reviews, stakeholder communication"
+      ],
+      [
+        "✦",
+        "AI engineering",
+        "Agentic development, MCP servers, Azure OpenAI and RAG"
+      ]
+    ],
+    "contactLead": "Always happy to talk about software architecture, .NET, Azure and AI-enabled engineering."
+  }
+}
